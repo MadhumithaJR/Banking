@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    {% block context %}
+
+    <center>
+        <div class="grid-container1">
+            <div class="grid-child-first">
+                <img src="/static/logo.jpg" alt="Logo for FastMoney" style="width: 370px; margin-left: 10em; margin-bottom: 40px">
+            </div>
+            <div class="grid-childsecond" style="background-color: #c7ffd8; padding: 20px; margin-right: 10em; margin-bottom: 40px; height: 206px;">
+                <div id="welcometext" style=" box-sizing: border-box; border: 5px solid #000000; background: #c7ffd8; padding: 20px; height: 196px;">
+                    <h1>WELCOME TO FASTMONEY TRANSACTIONS</h1>
+                </div>
+            </div>
+        </div>
+    </center>
+
+    <div class="grid-container2">
+        <a href = "./displayCust"><img src="/static/customer.jpg" style="margin: 5em;"></a>
+        <a href = "./makeTransaction"><img src="/static/transfer.jpg" style="margin: 5em;"> </a>
+        <a href = "./displayTrans"><img src="/static/history.jpg" style="height: 178px; margin: 5em;"></a>
+    </div>
+
+    {% endblock %}
+
+</body>
+
+</html>

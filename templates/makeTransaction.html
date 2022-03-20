@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Make Transaction</title>
+</head>
+
+<body>
+
+    <center>
+    
+        {%if message %}
+
+            <div style="background-color: #c7ffd8; padding: 20px; margin-bottom: 30px; margin: 25px; width: 600px;">
+                <div style=" box-sizing: border-box; border: 5px solid #000000; background: #c7ffd8; padding: 20px;">
+                    <p>{{message}}</p>
+                </div>
+            </div>
+    
+            <br><br>
+
+            <a href = "./index"><img src="/static/home.png" style="height:70px"></a>
+    
+        {%endif%}
+
+        {%if form %}
+
+            <div style="background-color: #c7ffd8; padding: 20px; margin-bottom: 30px; margin: 25px; width: 600px;">
+                <div style=" box-sizing: border-box; border: 5px solid #000000; background: #c7ffd8; padding: 20px;">
+                    <h1>TRANSFER MONEY</h1>
+                </div>
+            </div>
+    
+            <div style="color: #ffffff ;">
+
+                <form method = "post">
+                    {{form.as_p}}
+                    {%csrf_token%}
+                    <input class = "form-submit-button" type = "submit" value = "Transfer"> 
+                </form>
+
+            <br><br>
+
+            <a href = "./index"><img src="/static/home.png" style="height:70px"></a>
+    
+            {%endif%}
+
+            </div>
+
+    </center>
+    
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+	background-color: #0d4f21;
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #000;
+	font-family: 'Corbel Light', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	padding-top: 20px;
+	overflow-x: hidden;
+}
+
+table, th, td {
+      border: 1px solid Red;
+    }
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    background-color: #c7ffd8;
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr:hover {background-color: coral;}
+
+.form-submit-button {
+	margin-top: 50px;
+	font-size: 20px;
+	background: #53bd80;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	text-shadow: none;
+	padding: 10px 20px;
+}
+
+.form-submit-button:hover {
+	background: #266641;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	text-shadow: none;
+	padding: 10px 20px;
+}

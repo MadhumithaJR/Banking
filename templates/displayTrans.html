@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Transaction History</title>
+</head>
+
+<body>
+
+    {% block context %}
+
+    <center>
+    
+        <table class="styled-table" style="font-family: 'Corbel Light';">
+        
+            <caption>
+                <div style="background-color: #c7ffd8; padding: 20px; margin-bottom: 30px;">
+                    <div style=" box-sizing: border-box; border: 5px solid #000000; background: #c7ffd8; padding: 20px;">
+                        <h1>TRANSACTION HISTORY</h1>
+                    </div>
+                </div>
+            </caption>
+        
+            <thead>
+                <th>Sl.No.</th>
+                <th>FROM</th>
+                <th>TO</th>
+                <th>AMOUNT</th>
+            </thead>
+    
+            <tr>
+                {% for data in transaction %}
+                    <td align="center">{{forloop.counter}}</td>
+                    <td align="center">{{data.fromCust}}</td>
+                    <td align="center">{{data.toCust}}</td>
+                    <td align="right">{{data.payment}}</td>
+            </tr>
+    
+            {% endfor %}
+    
+        </table>
+    
+        <br>
+        <br>
+    
+        <a href = "./index"><img src="/static/home.png" style="height:70px"></a>
+
+    </center>
+
+    {% endblock %}
+
+</body>
+</html>
