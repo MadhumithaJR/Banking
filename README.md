@@ -3,8 +3,11 @@
 This is a simple Banking App with features to display customer details, transfer money from one customer to another and view transaction history.
 
 Developed By : Madhumitha J R
+
 Purpose : Web Development Internship Task under The Sparks Foundation
+
 Technologies Used : Python + Django Framework, HTML, CSS, SQL Database
+
 Contact : madhumithajr16@gmail.com
 
 To run this project, download all the source code and follow these steps:
