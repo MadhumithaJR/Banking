@@ -1,0 +1,102 @@
+[
+	{
+		"model": "transact.Customer",
+		"pk": 1,
+		"fields": {
+			"custID" : 31,
+			"custName" : "Harry Potter",
+			"custBalance" : "74000",
+			"custEmail" : "thechosen1@gmail.com"
+		}
+	},
+	{
+		"model": "transact.Customer",
+		"pk": 2,
+		"fields": {
+			"custID" : 19,
+			"custName" : "Hermione Granger",
+			"custBalance" : "56000",
+			"custEmail" : "brightestwitch@gmail.com"
+		}
+	},
+	{
+		"model": "transact.Customer",
+		"pk": 3,
+		"fields": {
+			"custID" : 1,
+			"custName" : "Ronald Weasley",
+			"custBalance" : "37000",
+			"custEmail" : "ourking@gmail.com"
+		}
+	},
+	{
+		"model": "transact.Customer",
+		"pk": 4,
+		"fields": {
+			"custID" : 30,
+			"custName" : "Neville Longbottom",
+			"custBalance" : "54000",
+			"custEmail" : "whyisitalwaysme@gmail.com"
+		}
+	},
+	{
+		"model": "transact.Customer",
+		"pk": 5,
+		"fields": {
+			"custID" : 3,
+			"custName" : "Sirius Black",
+			"custBalance" : "93000",
+			"custEmail" : "padfoot@gmail.com"
+		}
+	},
+	{
+		"model": "transact.Customer",
+		"pk": 6,
+		"fields": {
+			"custID" : 6,
+			"custName" : "Rubeus Hagrid",
+			"custBalance" : "17000",
+			"custEmail" : "shouldnothavesaidthat@gmail.com"
+		}
+	},
+	{
+		"model": "transact.Customer",
+		"pk": 7,
+		"fields": {
+			"custID" : 12,
+			"custName" : "Tom Riddle",
+			"custBalance" : "68000",
+			"custEmail" : "darklord@gmail.com"
+		}
+	},
+	{
+		"model": "transact.Customer",
+		"pk": 8,
+		"fields": {
+			"custID" : 5,
+			"custName" : "Draco Malfoy",
+			"custBalance" : "105000",
+			"custEmail" : "fathersshadow@gmail.com"
+		}
+	},
+	{
+		"model": "transact.Customer",
+		"pk": 9,
+		"fields": {
+			"custID" : 28,
+			"custName" : "Dobby",
+			"custBalance" : "13000",
+			"custEmail" : "freeelf@gmail.com"
+		}
+	},
+	{
+		"model": "transact.Customer",
+		"pk": 10,
+		"fields": {
+			"custID" : 27,
+			"custName" : "James Potter",
+			"custBalance" : "98000",
+			"custEmail" : "prongs@gmail.com"
+		}
+	}
+]
