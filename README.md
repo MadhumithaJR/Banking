@@ -1,8 +1,13 @@
-# Banking
+# Banking System
 
 This is a simple Banking App with features to display customer details, transfer money from one customer to another and view transaction history.
 
-This project has been developed using Django framework. To run this project, download all the source code and follow these steps:
+Developed By : Madhumitha J R
+Purpose : Web Development Internship Task under The Sparks Foundation
+Technologies Used : Python + Django Framework, HTML, CSS, SQL Database
+Contact : madhumithajr16@gmail.com
+
+To run this project, download all the source code and follow these steps:
   1. Install Python on your system.
   2. Create a folder titled 'Django'.
   3. Open cmd prompt and create a virtual environment using the command: py -m venv <project-name>
